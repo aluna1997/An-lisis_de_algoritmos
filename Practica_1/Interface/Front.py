@@ -21,6 +21,10 @@ def inicia_ventana(matriz_colores):
     ventana.config(bg="gray85")
 
     def pinta_matriz(lista):
+        """
+        A partir de una lista de colores dibuja una matriz de (len(lista)/2) x 4 
+        con el color correspondiente a cada celda
+        """
         a = 0
         for columna in lista:
             aux = 0
