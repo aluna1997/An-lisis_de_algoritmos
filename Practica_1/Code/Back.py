@@ -53,10 +53,7 @@ def genera_matriz_colores(cadena):
 
 if __name__ == "__main__":
     
-    print genera_matriz_colores("AaNm")
+    #print genera_matriz_colores("AaNm")
     
-    print len(map(bin,bytearray("¡"))[0].replace("b", "")[4:8])
-    
-    
-    
-
+    print map(bin,bytearray("¡"))[0].replace("b", "")[4:8]
+   
